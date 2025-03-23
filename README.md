@@ -36,10 +36,10 @@ cd repository-name
 open index.html  
 # Project Name
 
-No additional setup is required! Simply open the file in any browser, and you're good to go.
+No additional setup is required! Just open the file in any browser, and you're good to go.
 
 ## 🤝 Contributing
-Contributions are welcome! If you'd like to improve the project, feel free to:
+Contributions are welcome! If you’d like to improve the project, feel free to:
 
 1. **Fork** the repository
 2. **Create** a new branch (e.g., `feature/new-feature`)
