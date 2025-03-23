@@ -20,7 +20,9 @@ No need to rely on weak or repeated passwords anymore—**generate a secure one 
 ## 🛠️ Technologies Used  
 🔹 **HTML** – Provides the structural layout.  
 🔹 **CSS** – Adds styling and responsiveness.  
-🔹 **JavaScript** – Powers the password generation logic and user interactions.  
+🔹 **JavaScript** – Powers the password generation logic and user interactions.
+
+<img src="https://github.com/samanes11/GeneratePassword/blob/master/preview.png"/>
 
 ## 🚀 How to Use  
 1️⃣ Click the **"Create Password"** button.  
@@ -30,11 +32,9 @@ No need to rely on weak or repeated passwords anymore—**generate a secure one 
 
 ## 🏗️ Installation & Usage  
 Want to modify or run it locally? Follow these steps:  
-```bash
-git clone https://github.com/your-username/repository-name.git  
-cd repository-name  
-open index.html  
-# Project Name
+  git clone https://github.com/samanes11/GeneratePassword.git  
+  cd repository-name  
+  open index.html
 
 No additional setup is required! Just open the file in any browser, and you're good to go.
 
