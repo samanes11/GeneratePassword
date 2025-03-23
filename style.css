@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.display {
+    display: flex;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+h1 span {
+    color: #55ABC5;
+    font-weight: 700;
+}
+
+#password {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-right: 40px;
+}
+
+#password::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.display img {
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    filter: invert(1);
+}
+
+button {
+    background: linear-gradient(135deg, #4f9cff, #2d5cfe);
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(79, 156, 255, 0.3);
+}
+
+button img {
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+button:active {
+    animation: pulse 0.3s ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+button:active {
+    animation: pulse 0.3s ease-in-out;
+}
